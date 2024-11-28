@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ANKIT gallery-container">
+        <div class="gallery">
+            <!-- Dynamically added images will appear here -->
+        </div>
+    </div>
+
+    <!-- Modal for enlarged image and details -->
+    <div id="modal" class="modal">
+        <span id="closeModal" class="close">&times;</span>
+        <img id="modalImage" class="modal-content" alt="">
+        <div id="modalCaption" class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
